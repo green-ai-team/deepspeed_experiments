@@ -1,7 +1,7 @@
 # deepspeed_experiments
 
 ## Environment setup for deepspeed zero-infinity usage:
-- module load python/anaconda3 compilers/cmake-3.20 compilers/gcc-8.3.0 gpu/cuda-11.1
+- ```module load python/anaconda3 compilers/cmake-3.20 compilers/gcc-8.3.0 gpu/cuda-11.1```
 - conda create --name ENV python=3.8
 - conda activate ENV
 - conda install -c conda-forge python-libaio
