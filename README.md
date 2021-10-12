@@ -15,7 +15,7 @@
 
 Check torch and torchvision versions with ```pip freeze``` and ```conda list```. There might be different versions installed by both pip and conda. Leave only the 1.8.1+cu111 version.
 
-Example output of ```ds_report``` command output
+Example output of ```ds_report``` command:
 ```
 --------------------------------------------------
 DeepSpeed C++/CUDA extension op report
