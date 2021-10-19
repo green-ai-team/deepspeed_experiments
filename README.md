@@ -9,7 +9,7 @@
 - ```CUDA_PATH=/trinity/shared/opt/cuda-11.1```
 - ```CUDA_HOME=/trinity/shared/opt/cuda-11.1```
 - ```pip3 install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f [https://download.pytorch.org/whl/torch_stable.html](https://download.pytorch.org/whl/torch_stable.html)```
-- ```pip install deepspeed```
+- ```DS_BUILD_OPS=1 pip install deepspeed```
 - ```pip install dalle-pytorch```
 - ```pip install requests pyyaml tqdm packaging transformers psutil wandb```
 
@@ -29,16 +29,16 @@ ninja .................. [OKAY]
 --------------------------------------------------
 op name ................ installed .. compatible
 --------------------------------------------------
-cpu_adam ............... [NO] ....... [OKAY]
-fused_adam ............. [NO] ....... [OKAY]
-fused_lamb ............. [NO] ....... [OKAY]
-sparse_attn ............ [NO] ....... [OKAY]
-transformer ............ [NO] ....... [OKAY]
-stochastic_transformer . [NO] ....... [OKAY]
-async_io ............... [NO] ....... [OKAY]
-transformer_inference .. [NO] ....... [OKAY]
-utils .................. [NO] ....... [OKAY]
-quantizer .............. [NO] ....... [OKAY]
+cpu_adam ............... [YES] ...... [OKAY]
+fused_adam ............. [YES] ...... [OKAY]
+fused_lamb ............. [YES] ...... [OKAY]
+sparse_attn ............ [YES] ...... [OKAY]
+transformer ............ [YES] ...... [OKAY]
+stochastic_transformer . [YES] ...... [OKAY]
+async_io ............... [YES] ...... [OKAY]
+transformer_inference .. [YES] ...... [OKAY]
+utils .................. [YES] ...... [OKAY]
+quantizer .............. [YES] ...... [OKAY]
 --------------------------------------------------
 No CUDA runtime is found, using CUDA_HOME='/trinity/shared/opt/cuda-11.1'
 DeepSpeed general environment info:
