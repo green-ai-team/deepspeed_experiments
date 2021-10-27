@@ -45,7 +45,7 @@ torch cuda version ............... 11.1
 nvcc version ..................... 11.1
 deepspeed install path ........... ['/home/USERNAME/.conda/ENV/lib/python3.8/site-packages/deepspeed']
 deepspeed info ................... 0.5.4, unknown, unknown
-deepspeed wheel compiled w. ...... torch 1.9, cuda 10.2
+deepspeed wheel compiled w. ...... torch 1.8, cuda 11.1
 ```
 
 ## Scripts
