@@ -48,4 +48,8 @@ deepspeed info ................... 0.5.4, unknown, unknown
 deepspeed wheel compiled w. ...... torch 1.9, cuda 10.2
 ```
 
-Zero-offload example in ```notebooks/Dalle-Zero.ipynb```
+## Scripts
+scripts/train_multinode.sh:
+- Change ```conda activate mark15``` to ```conda activate YOUR_ENV```
+- Change COMM_PATH to your prefered path. Make sure that this file doesn't exist.
+- Change WORLD_SIZE and GPUS_PER_NODE according to your SBATCH parameters. 
