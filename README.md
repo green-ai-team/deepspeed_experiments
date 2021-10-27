@@ -8,7 +8,6 @@
 - ```CUDA_HOME=/trinity/shared/opt/cuda-11.1```
 - ```pip install torch==1.8.1+cu111 torchvision==0.9.1+cu111 torchaudio==0.8.1 -f https://download.pytorch.org/whl/torch_stable.html```
 - ```DS_BUILD_OPS=1 pip install deepspeed```
-- ```pip install dalle-pytorch```
 - ```pip install requests pyyaml tqdm packaging transformers psutil wandb```
 
 Check torch and torchvision versions with ```pip freeze``` and ```conda list```. There might be different versions installed by both pip and conda. Leave only the 1.8.1+cu111 version.
